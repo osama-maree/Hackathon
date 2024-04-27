@@ -1,0 +1,19 @@
+/* styles.css */
+@import url("~@fontsource/poppins");
+
+:root {
+  --main-color: #c0d28f;
+  --secondary-color: #f5ffdb;
+}
+body {
+  margin: 0;
+  font-family: "Poppins, sans-serif";
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  background-position: top;
+  height: 100vh;
+  background-color: var(--secondary-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
